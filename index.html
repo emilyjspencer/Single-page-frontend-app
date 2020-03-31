@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    
+    <link rel="stylesheet" href="style.css">
     <title>Single page frontend app</title>
   </head>
 
@@ -11,24 +11,10 @@
 
     
 
-<script>
-turnDrJekyllIntoMrHyde();
 
-function turnDrJekyllIntoMrHyde() {
-  document.getElementById("drjekyll")
-    .addEventListener("click", function(clickEvent) {
-      clickEvent.preventDefault();
-      scary();
-    });
-};
 
-function scary() {
-  document.getElementById("drjekyll").style.visibility = "hidden";
-    document.body.appendChild(document.createElement("img")).src = "Public/mrhyde.jpg";
+<script src="jekyllhyde.js" type="text/javascript"></script>
 
-};
-
-</script>
 </body>
 </html>
 
