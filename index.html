@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <title>Single page frontend app</title>
+  </head>
+
+  <body>
+    <img id="drjekyll" src="Public/drjekyll.jpg">
+    <div id="mrhyde"></div>
+
+    
+
+<script>
+turnDrJekyllIntoMrHyde();
+
+function turnDrJekyllIntoMrHyde() {
+  document.getElementById("drjekyll")
+    .addEventListener("click", function(clickEvent) {
+      clickEvent.preventDefault();
+      scary();
+    });
+};
+
+function scary() {
+  document.getElementById("drjekyll").style.visibility = "hidden";
+    document.body.appendChild(document.createElement("img")).src = "Public/mrhyde.jpg";
+
+};
+
+</script>
+</body>
+</html>
+
+
+
+
+
