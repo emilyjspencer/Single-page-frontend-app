@@ -12,6 +12,8 @@ cd into the newly created repository
 
 $ open .index.html 
 ```
+## Screenshots
 
-![DrJekyll](.Screenshot 1.jpg)
-![MrHyde](Screenshot 2.jpg)
+![Screenshot1](.Screenshot1.png)
+
+![Screenshot2](Screenshot2.png)
