@@ -16,4 +16,4 @@ $ open .index.html
 
 Dr Jekyll                  |  Mr Hyde
 :-------------------------:|:-------------------------:
-![Screenshot1](Screenshot1.png)  |  ![Screenshot2](Screenshot2.png)
+![Screenshot1](Screenshot1.png) | ![Screenshot2](hyde.png)
