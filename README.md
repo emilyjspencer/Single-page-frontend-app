@@ -14,6 +14,6 @@ $ open .index.html
 ```
 ## Screenshots
 
-![Screenshot1](.Screenshot1.png)
-
-![Screenshot2](Screenshot2.png)
+Dr Jekyll                  |  Mr Hyde
+:-------------------------:|:-------------------------:
+![Screenshot1](Screenshot1.png)  |  ![Screenshot2](Screenshot2.png)
